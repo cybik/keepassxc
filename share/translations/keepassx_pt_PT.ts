@@ -242,6 +242,10 @@ Selecione se deseja permitir o acesso.</translation>
         <translation>&amp;Google Chrome</translation>
     </message>
     <message>
+        <source>&amp;Google Chrome Canary</source>
+        <translation>&amp;Google Chrome Canary</translation>
+    </message>
+    <message>
         <source>&amp;Firefox</source>
         <translation>&amp;Firefox</translation>
     </message>
@@ -1180,7 +1184,7 @@ Desativar salvaguardas e tentar novamente?</translation>
     <message>
         <source>The database file has changed and you have unsaved changes.
 Do you want to merge your changes?</source>
-        <translation>A base de dados foi alterada e tem alterações não gravadas. 
+        <translation>A base de dados foi alterada e tem alterações não gravadas.
 Deseja juntar as suas alterações?</translation>
     </message>
     <message>

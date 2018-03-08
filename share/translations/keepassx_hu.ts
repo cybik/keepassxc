@@ -241,6 +241,10 @@ Válassza ki, hogy engedélyezi-e a hozzáférést.</translation>
         <translation>&amp;Google Chrome</translation>
     </message>
     <message>
+        <source>&amp;Google Chrome Canary</source>
+        <translation>&amp;Google Chrome Canary</translation>
+    </message>
+    <message>
         <source>&amp;Firefox</source>
         <translation>&amp;Firefox</translation>
     </message>
@@ -1176,7 +1180,7 @@ Letiltható a biztonságos mentés és úgy megkísérelhető a mentés?</transl
     <message>
         <source>The database file has changed and you have unsaved changes.
 Do you want to merge your changes?</source>
-        <translation>Az adatbázisfájl módosult és vannak nem mentett változások. 
+        <translation>Az adatbázisfájl módosult és vannak nem mentett változások.
 Egyesíti a módosításokat?</translation>
     </message>
     <message>

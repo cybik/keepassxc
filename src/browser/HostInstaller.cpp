@@ -37,6 +37,7 @@ const QStringList HostInstaller::ALLOWED_EXTENSIONS = QStringList()
 
 #if defined(Q_OS_OSX)
     const QString HostInstaller::TARGET_DIR_CHROME = "/Library/Application Support/Google/Chrome/NativeMessagingHosts";
+    const QString HostInstaller::TARGET_DIR_CHROME_CANARY = "/Library/Application Support/Google/Chrome Canary/NativeMessagingHosts";
     const QString HostInstaller::TARGET_DIR_CHROMIUM = "/Library/Application Support/Chromium/NativeMessagingHosts";
     const QString HostInstaller::TARGET_DIR_FIREFOX = "/Library/Application Support/Mozilla/NativeMessagingHosts";
     const QString HostInstaller::TARGET_DIR_VIVALDI = "/Library/Application Support/Vivaldi/NativeMessagingHosts";
@@ -114,6 +115,9 @@ QString HostInstaller::getTargetPath(SupportedBrowsers browser) const
     case SupportedBrowsers::CHROMIUM:   return HostInstaller::TARGET_DIR_CHROMIUM;
     case SupportedBrowsers::FIREFOX:    return HostInstaller::TARGET_DIR_FIREFOX;
     case SupportedBrowsers::VIVALDI:    return HostInstaller::TARGET_DIR_VIVALDI;
+#if defined(Q_OS_OSX)
+    case SupportedBrowsers::CHROME_CANARY:     return HostInstaller::TARGET_DIR_CHROME_CANARY;
+#endif
     default: return QString();
     }
 }
@@ -125,6 +129,9 @@ QString HostInstaller::getBrowserName(SupportedBrowsers browser) const
     case SupportedBrowsers::CHROMIUM:   return "chromium";
     case SupportedBrowsers::FIREFOX:    return "firefox";
     case SupportedBrowsers::VIVALDI:    return "vivaldi";
+#if defined(Q_OS_OSX)
+    case SupportedBrowsers::CHROME_CANARY:     return "chrome_canary";
+#endif
     default: return QString();
     }
 }

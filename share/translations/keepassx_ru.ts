@@ -242,6 +242,10 @@ Please select whether you want to allow access.</source>
         <translation>&amp;Google Chrome</translation>
     </message>
     <message>
+        <source>&amp;Google Chrome Canary</source>
+        <translation>&amp;Google Chrome Canary</translation>
+    </message>
+    <message>
         <source>&amp;Firefox</source>
         <translation>&amp;Firefox</translation>
     </message>
@@ -3422,7 +3426,7 @@ Using default port 19455.</source>
 unsupported in the future.
 
 Please consider generating a new key file.</source>
-        <translation>ПРЕДУПРЕЖДЕНИЕ: Вы используете устаревший формат файл ключа, поддержка которого 
+        <translation>ПРЕДУПРЕЖДЕНИЕ: Вы используете устаревший формат файл ключа, поддержка которого
 может быть прекращена в будущем.
 
 Рассмотрите возможность создания нового файла ключа.</translation>

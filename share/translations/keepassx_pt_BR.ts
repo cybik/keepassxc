@@ -242,6 +242,10 @@ Selecione se deseja permitir o acesso.</translation>
         <translation>&amp;Google Chrome</translation>
     </message>
     <message>
+        <source>&amp;Google Chrome Canary</source>
+        <translation>&amp;Google Chrome Canary</translation>
+    </message>
+    <message>
         <source>&amp;Firefox</source>
         <translation>&amp;Firefox</translation>
     </message>

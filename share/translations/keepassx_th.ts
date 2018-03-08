@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>KeePassXC is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
-        <translation>KeePassXC เผยแพร่ภายใต้เงื่อนไขของสัญญาอนุญาตสาธารณะทั่วไปของกนู (GNU GPL) 
+        <translation>KeePassXC เผยแพร่ภายใต้เงื่อนไขของสัญญาอนุญาตสาธารณะทั่วไปของกนู (GNU GPL)
 รุ่น 2 หรือรุ่น 3  (คุณสามารถเลือกได้)</translation>
     </message>
     <message>
@@ -238,6 +238,10 @@ Please select whether you want to allow access.</source>
     <message>
         <source>&amp;Google Chrome</source>
         <translation>&amp;Google Chrome</translation>
+    </message>
+    <message>
+        <source>&amp;Google Chrome Canary</source>
+        <translation>&amp;Google Chrome Canary</translation>
     </message>
     <message>
         <source>&amp;Firefox</source>

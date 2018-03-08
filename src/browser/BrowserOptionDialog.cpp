@@ -87,6 +87,10 @@ void BrowserOptionDialog::loadSettings()
     m_ui->chromiumSupport->setChecked(settings.chromiumSupport());
     m_ui->firefoxSupport->setChecked(settings.firefoxSupport());
     m_ui->vivaldiSupport->setChecked(settings.vivaldiSupport());
+#if defined(Q_OS_OSX)
+    m_ui->chromeCanarySupport->setVisible(true);
+    m_ui->chromeCanarySupport->setChecked(settings.chromeCanarySupport());
+#endif
 
 #if defined(KEEPASSXC_DIST_APPIMAGE)
     m_ui->supportBrowserProxy->setChecked(true);
@@ -125,6 +129,9 @@ void BrowserOptionDialog::saveSettings()
     settings.setChromiumSupport(m_ui->chromiumSupport->isChecked());
     settings.setFirefoxSupport(m_ui->firefoxSupport->isChecked());
     settings.setVivaldiSupport(m_ui->vivaldiSupport->isChecked());
+#if defined(Q_OS_OSX)
+    settings.setChromeCanarySupport(m_ui->chromeCanarySupport->isChecked());
+#endif
 }
 
 void BrowserOptionDialog::showProxyLocationFileDialog()

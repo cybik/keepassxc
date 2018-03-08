@@ -241,6 +241,10 @@ Please select whether you want to allow access.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <source>&amp;Google Chrome Canary</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>&amp;Firefox</source>
         <translation type="unfinished"/>
     </message>

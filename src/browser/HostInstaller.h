@@ -33,6 +33,9 @@ public:
         CHROMIUM =  1,
         FIREFOX =   2,
         VIVALDI =   3
+#if defined(Q_OS_OSX)
+        , CHROME_CANARY = 4
+#endif
     };
 
 public:
@@ -58,6 +61,9 @@ private:
     static const QString TARGET_DIR_CHROMIUM;
     static const QString TARGET_DIR_FIREFOX;
     static const QString TARGET_DIR_VIVALDI;
+#if defined(Q_OS_OSX)
+    static const QString TARGET_DIR_CHROME_CANARY;
+#endif
 };
 
 #endif // HOSTINSTALLER_H

@@ -242,6 +242,10 @@ Bitte wählen Sie, ob Sie den Zugriff erlauben möchten.</translation>
         <translation>&amp;Google Chrome</translation>
     </message>
     <message>
+        <source>&amp;Google Chrome Canary</source>
+        <translation>&amp;Google Chrome Canary</translation>
+    </message>
+    <message>
         <source>&amp;Firefox</source>
         <translation>&amp;Firefox</translation>
     </message>
@@ -3679,7 +3683,7 @@ If you would like to allow it access to your KeePassXC database
 give it a unique name to identify and accept it.</source>
         <translation>Sie haben eine Verbindungsanfrage für den obigen Schlüssel
 erhalten. Wenn Sie den Zugriff auf Ihre KeePassXC-Datenbank
-erlauben möchten, geben Sie der Verbindungen einen eindeutigen 
+erlauben möchten, geben Sie der Verbindungen einen eindeutigen
 Namen und akzeptieren Sie.</translation>
     </message>
     <message>

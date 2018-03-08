@@ -209,6 +209,16 @@ void BrowserSettings::setVivaldiSupport(bool enabled) {
     m_hostInstaller.installBrowser(HostInstaller::SupportedBrowsers::VIVALDI, enabled, supportBrowserProxy(), customProxyLocation());
 }
 
+#if defined(Q_OS_OSX)
+bool BrowserSettings::chromeCanarySupport() {
+    return m_hostInstaller.checkIfInstalled(HostInstaller::SupportedBrowsers::CHROME_CANARY);
+}
+
+void BrowserSettings::setChromeCanarySupport(bool enabled) {
+    m_hostInstaller.installBrowser(HostInstaller::SupportedBrowsers::CHROME_CANARY, enabled, supportBrowserProxy(), customProxyLocation());
+}
+#endif
+
 bool BrowserSettings::passwordUseNumbers()
 {
     return config()->get("generator/Numbers", PasswordGenerator::DefaultNumbers).toBool();

@@ -111,6 +111,19 @@
             </property>
            </widget>
           </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="chromeCanarySupport">
+            <property name="text">
+             <string>&amp;Google Chrome Canary</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <property name="visible">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
          </layout>
         </widget>
        </item>
